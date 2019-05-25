@@ -8,6 +8,7 @@ QUASHED = [
     'Accept-Encoding',
     'Authorization',
     'Connection',
+    'Content-Length',
     'Host',
     'User-Agent',
 
@@ -27,6 +28,7 @@ QUASHED = [
     'Strict-Transport-Security',
     'Transaction-Id',
     'Transfer-Encoding',
+    'Vary',
     'X-Content-Type-Options',
     'X-Frame-Options',
     'X-XSS-Protection',
