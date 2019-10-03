@@ -13,6 +13,7 @@ QUASHED = [
     'User-Agent',
 
     # Response
+    'CF-Cache-Status',
     'Connection',
     'Cache-Control',
     'Content-Encoding',
