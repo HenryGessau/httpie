@@ -64,7 +64,7 @@ class BaseStream(metaclass=ABCMeta):
         """Return an iterator over `self.msg`."""
         if self.output_options.headers:
             yield self.get_headers()
-            yield b'\r\n\r\n'
+            yield b'\r\n'
 
         if self.output_options.body:
             try:
